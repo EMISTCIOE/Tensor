@@ -1,0 +1,9 @@
+{
+  "name": "tensor",
+  "type": "node",
+  "path": "/srv/apps/tensor",
+  "port": 3007,
+  "domain": "tensor.tcioe.edu.np",
+  "build": "npm install && npm run build",
+  "start": "PORT=3007 npm start"
+}
